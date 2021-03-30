@@ -1,14 +1,15 @@
 import React, {useState} from 'react'
 import List from './List'
-import './Data'
+import Data from './Data'
 
 function App() {
+  const [people, setPeople]=useState(Data)
 
   return (
     <main>
     <section className="container">
-    <h3>0 Birth-Day Today</h3>
-    <List/>
+    <h3>{people.length} Birth-Days Today</h3>
+    <List people={people}/>
     <button onClick={() => console.log('Clicked me') }>Clear all</button>
     </section>
   </main>
