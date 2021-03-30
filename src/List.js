@@ -1,12 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const List = () => {
   return (
-    <main>
-      <section className="container">
-      <h3>0 Birth-Day Today</h3>
-      </section>
-    </main>
+   <div>List</div>
   )
 }
 
