@@ -1,10 +1,11 @@
 import React from 'react';
-
-
+import List from './List'
+import Data from './Data'
 function App() {
   return (
     <div className="App">
-      <h2>Wahid</h2>
+      <List/>
+      <Data/>
     </div>
   );
 }
