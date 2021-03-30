@@ -142,8 +142,8 @@ main {
 }
 
 .container {
-  width: 40vw;
-  margin: 5rem 0;
+  width: 60vw;
+  margin: 4rem 0;
   max-width: var(--fixed-width);
   background: var(--clr-white);
   border-radius: var(--radius);

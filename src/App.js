@@ -8,9 +8,9 @@ function App() {
   return (
     <main>
     <section className="container">
-    <h3>{people.length} Birth-Days Today</h3>
-    <List people={people}/>
-    <button onClick={() => console.log('Clicked me') }>Clear all</button>
+      <h3>{people.length} Birthdays Today</h3>
+      <List people={people}/>
+      <button onClick={() => setPeople([]) }>Clear all</button>
     </section>
   </main>
   );
